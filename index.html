@@ -1,32 +1,25 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-	<meta charset="UTF8">
+    <meta charset="UTF8">
 	<title>MySite</title>
 	 <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
-	 <link rel="stylesheet" href="bootstrap.min.css">
-	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	 <link rel="stylesheet" href="style.css">
+	 <link rel="stylesheet" href="css/bootstrap.min.css">
+	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+	 <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	<header id="header" class="header">
+    <header id="header" class="header">
 		<div class="container"> 
-			
-
-
-
-
 			<div class="row"> 
-				<div class="col-lg-3">
-					 <img src="img/logo.png" alt="logo" class="logo">
+				<div class="col-lg-3 d-flex">
+					 <img src="img/logo.png" alt="logo" class="logo"><h2>Логитип</h2>
 				</div>
-					
-				<div class="col-lg-6  ml-auto">
-					
+				<div class="col-lg-6">
 					<nav>
-					  <ul class="menu d-flex justify-content-center">
+					  <ul class="menu d-flex ">
                             <li class="menu__item">
                                 <a href="#">
                                     Преимущества
@@ -45,230 +38,130 @@
                         </ul>
 					</nav>
 				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="offer animated fadeInLeft">
+						<h1 class="offer__title">
+							Сайт-визитка
+						</h1>
+					</div>	
+				<div class="offer_intro">
+					Лучшее решение для бизнеса и личного использования
 				</div>
-
-
-
-
-
-				<div class="row">
-					<div class="col-lg-6">
-								<div class="offer animated fadeInLeft">
-									<h1 class="offer_tittle">
-									сайт-визитка
-									</h1>
-								</div>
-								<div class="offer_intro">
-				лучшее решение для бизнеса и личного пользования
-								</div>
-								<p class="offer_text">
-				-одна или несколько страниц в интернете, расположенных на одном 
-				доменном имени, предостовляющая общую информацию о владельце,
-				основной перечень услуг, товаров, контактные данные и раздел с 
-				ответами на основные вопросы   
-								</p>
+				<p class="offer__text">
+					– одна или несколько страниц в интернете,<br> расположенных на одном доменном имени,<br> предоставляющая общую информацию о владельце,<br> основной перечень услуг, товаров, контактные данные<br> и раздел с ответами на основные вопросы
+				</p>
 				<ul class="icons d-flex">
-				<li class="icons_item">
-					<a href="#">
-						<i class="fa fa-apple"></i>
-					</a>
-				</li>
-				<li class="icons_item">
-					<a href="#">
-						<i class="fa fa-android"></i>
-					</a>
-				</li>
-				<li class="icons_item">
-					<a href="#">
-						<i class="fa fa-windows"></i>
-					</a>
-				</li>
-				
+					<li class="icons__item">
+						<a href="#">
+							<i class="fab fa-apple"></i>
+						</a>
+					</li>
+					<li class="icons__item">
+						<a href="#">
+							<i class="fab fa-android"></i>
+						</a>
+					</li>
+					<li class="icons__item">
+						<a href="#">
+							<i class="fab fa-windows"></i>
+						</a>
+					</li>
 				</ul>
-					</div>
 				</div>
 				<div class="col-lg-5 ml-auto">
-						<img src="img/ipad.png" class="ipad" alt="iPad">
+					<img src="img/ipad.png" class="ipad" alt="ipad">
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="interesting" class="interesting">
+		<div class="container">
+			<div class="text-center">
+				<h1>Характеристики</h1>
+				<p>В этом разделе мы расскажем вам, основные характеристики даного <br>сайта-визитки</p>
+			</div>
+			<div class="row">
+				<div class="row short-card col-lg-4">
+					<div class="icon col-sm-3">
+						<i class="fas fa-tablet-alt"></i>
+					</div>
+					<div class="icon__info">
+						<h4>Адаптивность</h4>
+						<p>Сайт подходит под любое <br> устройство и расширение<br> экрана.</p>
 					</div>
 				</div>
-		</header>
-
-
-<section id="interesting" class="interesting">
-		<div class="container"> 
-
-			<!--заголовок -->
-			<div class="row">
-				<div class="col-lg-12">
-				<div class="title">
-					<h2 class="title_main"> Характеристики </h2>
-
-					<p class="title_text"> В этом разделе мы расскажем вам, основные характеристики даного сайта-визитки </p>
+				<div class="row short-card col-lg-4">
+					<div class="icon col-sm-3">
+						<i class="far fa-lemon"></i>
+					</div>
+					<div class="icon__info">
+						<h4>Все элементы в PSD</h4>
+						<p>Удобный для верстки сайт. Все<br> элементы есть в PSD формате. </p>
+					</div>
 				</div>
-
-
-			</div>
-			</div>
-
-			<!--Текст -->
-
-			<div class="row">
-			<div class="col-lg-4">
-                    <div class="feature d-flex">
-                        <i class="fa fa-tablet feature__icon"></i>
-                        <div class="feature__block">
-                            <h3 class="feature__title">
-                                Адаптивность
-                            </h3>
-                            <p class="feature__text">
-                                Сайт подходит под любое устройство и расширение экрана. 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="feature d-flex">
-                        <i class="fa fa-lemon-o feature__icon"></i>
-                        <div class="feature__block">
-                            <h3 class="feature__title">
-                                Все элеметы в PSD
-                            </h3>
-                            <p class="feature__text">
-                               Удобный для верстки сайт. Все элементы есть в PSD формате. 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="feature d-flex">
-                        <i class="fa fa-folder-o feature__icon"></i>
-                        <div class="feature__block">
-                            <h3 class="feature__title">
-                                Потрясающие иконки
-                            </h3>
-                            <p class="feature__text">
-                                В приложени к файлу можно найти все необходимые иконки. 
-                            </p>
-                        </div>
-                    </div>
-
-
-                </div>
-<div class="col-lg-4">
-                    <div class="feature d-flex">
-                        <i class="fa fa-code feature__icon"></i>
-                        <div class="feature__block">
-                            <h3 class="feature__title">
-                                HTML & CSS
-                            </h3>
-                            <p class="feature__text">
-                                Сайт легко сверстать с помощью HTML и CSS. 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="feature d-flex">
-                        <i class="fa fa-envelope-o  feature__icon"></i>
-                        <div class="feature__block">
-                            <h3 class="feature__title">
-                               Обратная связь
-                            </h3>
-                            <p class="feature__text">
-                               Сайт имеет раздел с обртаной связью. 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="feature d-flex">
-                        <i class="fa fa-bookmark-o feature__icon"></i>
-                        <div class="feature__block">
-                            <h3 class="feature__title">
-                                Интересно верстать
-                            </h3>
-                            <p class="feature__text">
-                                Сайт имеет элементы, которые будет интересно верстать. 
-                            </p>
-                        </div>
-                    </div>
-            </div>
-
-    </section>
-
-
-
-
-
-
-
-
-	<section id="interesting" class="interesting">
-		<div class="container"> 
-
-			
-            </div>
-
-    </section>
-
-
-
-	
-
-	s
-
-
-	
-
-   	
-
-	<section id="feedback" class="feedback">
-		
-
-		<div class="container">
-           <div class="row">
-                <div class="col-lg-12">
-                    <div class="title">
-                        <h2 class="title__main blue">
-                            Свяжитесь с нами
-                        </h2>
-                        <p class="title__text">
-                            Оставьте свой e-mail адрес и мы свяжемся с вами в ближайшее время.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-           <div class="row">
-           	<div class="col-lg-10 ml-auto">
-           	<form action="#" class="form"> 
-           		<input type="email" placeholder="Введите ваш e-mail" class="form_input" required>
-           		<button tupe="submit" class="button"> SUBMIT </button>
-           	</form>
-           </div>
-           </div>
-
-        </div>
-	</section>
-
-
-	<footer id="footer" class="footer">
-		<div class="container"> 
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="footer_info">
-						Web-designer,
-						2019			
+				<div class="row short-card col-lg-4">
+					<div class="icon col-sm-3">
+						<i class="far fa-folder"></i>
+					</div>
+					<div class="icon__info">
+						<h4>Потрясающие иконки</h4>
+						<p>В приложени к файлу можно<br> найти все необходимые<br> иконки. </p>
+					</div>
+				</div>
+				<div class="row short-card col-lg-4">
+					<div class="icon col-sm-3">
+						<i class="fas fa-code"></i>
+					</div>
+					<div class="icon__info">
+						<h4>HTML & CSS</h4>
+						<p>Сайт легко сверстать с<br> помощью HTML и CSS </p>
+					</div>
+				</div>
+				<div class="row short-card col-lg-4">
+					<div class="icon col-sm-3">
+						<i class="far fa-envelope"></i>
+					</div>
+					<div class="icon__info">
+						<h4>Обратная связь</h4>
+						<p>Сайт имеет раздел с обртаной<br> связью.</p>
+					</div>
+				</div>
+				<div class="row short-card col-lg-4">
+					<div class="icon col-sm-3">
+						<i class="far fa-bookmark"></i>
+					</div>
+					<div class="icon__info">
+						<h4>Интресно верстать</h4>
+						<p>Сайт имеет элементы,<br> которые будет интересно верстать.</p>
 					</div>
 				</div>
 			</div>
 		</div>
+    </section>
+	<section id="feedback" class="feedback">
+		<div class="container">
+			<div class="text-center">
+				<h1>Свяжитесь с нами</h1>
+				<p>Оставьте свой e-mail адрес и мы свяжемся с вами в ближайшее время.</p>
+			</div>
+			<form class="row justify-content-center">
+				<div class="form-group col-lg-6">
+				<label for="InputEmail"></label>
+				<input type="email" class="form-control" id="InputEmail" aria-describedby="email" placeholder="Enter your email to update">
+				</div>
+				<button type="button" id="feedback__submit"class="btn btn-danger col-lg-1">Submit</button>
+			</form>
+		</div>
+	</section>
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="text-center">
+				<p>HALOVIETNAM LTD <br>66, Dang Van ngu, Dong Da<br>Hanoi, Vietnam</p>
+			</div>
+		</div>
 	</footer>
-
 </body>
 
 
