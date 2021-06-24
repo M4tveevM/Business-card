@@ -8,10 +8,10 @@
 	 <link rel="stylesheet" href="css/bootstrap.min.css">
 	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 	 <link rel="stylesheet" href="css/style.css">
+	 <link rel="stylesheet" href="css/animate.min.css">
 </head>
-
 <body>
-    <header id="header" class="header">
+	<header id="header" class="header">
 		<div class="container"> 
 			<div class="row"> 
 				<div class="col-lg-3 d-flex">
@@ -21,7 +21,7 @@
 					<nav>
 					  <ul class="menu d-flex ">
                             <li class="menu__item">
-                                <a href="#">
+                                <a href="#interesting">
                                     Преимущества
                                 </a>
                             </li>
@@ -31,7 +31,7 @@
                                 </a>
                             </li>
                             <li class="menu__item">
-                                <a href="#">
+                                <a href="#feedback">
                                     Контакты
                                 </a>
                             </li>
@@ -78,7 +78,7 @@
 	</header>
 	<section id="interesting" class="interesting">
 		<div class="container">
-			<div class="text-center">
+			<div class="text-center animated fadeInDown slow">
 				<h1>Характеристики</h1>
 				<p>В этом разделе мы расскажем вам, основные характеристики даного <br>сайта-визитки</p>
 			</div>
@@ -143,8 +143,8 @@
 	<section id="feedback" class="feedback">
 		<div class="container">
 			<div class="text-center">
-				<h1>Свяжитесь с нами</h1>
-				<p>Оставьте свой e-mail адрес и мы свяжемся с вами в ближайшее время.</p>
+				<h1 class="wow animated slideInLeft slower">Свяжитесь с нами</h1>
+				<p class="wow animated slideInLeft delay-2s slow">Оставьте свой e-mail адрес и мы свяжемся с вами в ближайшее время.</p>
 			</div>
 			<form class="row justify-content-center">
 				<div class="form-group col-lg-6">
@@ -157,12 +157,11 @@
 	</section>
 	<footer id="footer" class="footer">
 		<div class="container">
-			<div class="text-center">
+			<div class="text-center animated bounceInUp slower delay-4s">
 				<p>HALOVIETNAM LTD <br>66, Dang Van ngu, Dong Da<br>Hanoi, Vietnam</p>
 			</div>
 		</div>
 	</footer>
+	<script src="js/wow.min.js">new WOW().init();</script>
 </body>
-
-
 </html>
